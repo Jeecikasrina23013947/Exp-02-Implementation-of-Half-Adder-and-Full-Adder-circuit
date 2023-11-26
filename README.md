@@ -43,23 +43,23 @@ RegisterNumber: 23013947
 
 
 ##  CODE:
-
+```
 module fulladd (a,b,sum,carry);
 input a,b;
 output sum,carry;
 assign sum = (a^b);
 assign carry = (a&b);
 endmodule
-
+```
 Full adder program:
-
+```
 module fulladd (a,b,c,sum,carry);
 input a,b,c;
 output sum,carry;
 assign sum = (a^b^c);
 assign carry = ((a&b)|(a^b)&c);
 endmodule
-
+```
 ##  TRUTH TABLE:
 
 ![image](https://github.com/Jeecikasrina23013947/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/148515300/9be864b5-5285-4d6e-bdfd-ec60fb430c5a)
