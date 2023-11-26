@@ -44,6 +44,8 @@ RegisterNumber: 23013947
 
 ##  CODE:
 ```
+Half adder program:
+
 module fulladd (a,b,sum,carry);
 input a,b;
 output sum,carry;
@@ -61,18 +63,37 @@ assign carry = ((a&b)|(a^b)&c);
 endmodule
 ```
 ##  TRUTH TABLE:
+HALF ADDER TRUTH TABLE:
 
 ![image](https://github.com/Jeecikasrina23013947/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/148515300/9be864b5-5285-4d6e-bdfd-ec60fb430c5a)
+
+FULL ADDER TRUTH TABLE:
+
+![image](https://github.com/Jeecikasrina23013947/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/148515300/9ebb53a2-d304-4627-a697-b49afc2ae1ee)
 
 
 ##  RTL VIEW:
 
+HALF ADDER RTL VIEW:
+
 ![image](https://github.com/Jeecikasrina23013947/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/148515300/905be14c-70ae-410d-abbb-381627391ece)
+
+FULL ADDER RTL VIEW:
+
 ![image](https://github.com/Jeecikasrina23013947/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/148515300/6302558b-714f-466f-a2bc-8c80efa98749)
 
 
 ##  OUTPUT:
-![image](https://github.com/Jeecikasrina23013947/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/148515300/88fc5547-db06-4714-bef0-4da0fefda97e)
+
+HALF ADDER:
+
+![image](https://github.com/Jeecikasrina23013947/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/148515300/bd71104a-543a-4ccd-90a2-d65af4c5326a)
+
+FULL ADDER:
+
+
+![image](https://github.com/Jeecikasrina23013947/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/148515300/9adb8ada-f979-481f-83a8-60281afed480)
+
 
 ##  Result:
 
